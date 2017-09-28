@@ -11,26 +11,32 @@ GEM
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    addressable (2.3.2)
-    crack (0.3.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    hashdiff (0.3.6)
     httparty (0.10.0)
       multi_json (~> 1.0)
       multi_xml
-    i18n (0.6.1)
-    json (1.7.6)
+    i18n (0.8.6)
+    json (2.0.3)
     multi_json (1.5.0)
     multi_xml (0.5.2)
-    rake (10.0.3)
+    public_suffix (3.0.0)
+    rake (12.1.0)
+    safe_yaml (1.0.4)
     shoulda (3.3.2)
       shoulda-context (~> 1.0.1)
       shoulda-matchers (~> 1.4.1)
     shoulda-context (1.0.2)
     shoulda-matchers (1.4.1)
       activesupport (>= 3.0.0)
-    vcr (2.4.0)
-    webmock (1.9.0)
-      addressable (>= 2.2.7)
-      crack (>= 0.1.7)
+    vcr (3.0.3)
+    webmock (3.0.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
@@ -41,3 +47,6 @@ DEPENDENCIES
   shoulda
   vcr
   webmock
+
+BUNDLED WITH
+   1.13.7
